@@ -75,7 +75,7 @@ body{
 .first-sec > .scroll {
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: 2%;
     width: min-content;
     height: min-content;
     transform: translate(-50%, -50%);
@@ -110,8 +110,10 @@ body{
     border-radius: 5px;
 }
 #second-sec > .img-con{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     background-color: rgb(24, 24, 24);
-    padding: 15px;
     transition: all .4s ease ;
     width: clamp(340px, 100% , 26vw);
     cursor: pointer;
@@ -119,8 +121,50 @@ body{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px ;
     margin-left: 10px;
+    padding: 10px 0;
+    border-radius: 5px;
     
+}
+/* some resbonsivity for users with 400px width  */
+@media all and (max-width: 400px){
+    #second-sec > .img-con{
+
+        width: clamp(210px, 95%, 100vw);
+        margin: 10px auto;
+    }
+    #second-sec img{
+        width: clamp(200px, 90%, 98vw);
+    }
 }
 #second-sec > .img-con:hover{
     background-color: cornflowerblue;
+}
+
+.footer{
+    appearance: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 ;
+    margin: 30px;
+}
+body > hr{
+    border-width: 0;
+    width: 100vw;
+    height: 5px;
+    background: #3f3f3f;
+    margin: 10px 0;
+    margin-top: 30px;
+}
+.footer > a{
+    appearance: none;
+    margin: 12px ;
+    color: #222;
+    text-decoration: none;
+    transition: all .3s ease;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.footer > a:hover{
+    color: #080808;
 }
