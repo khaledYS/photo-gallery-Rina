@@ -31,3 +31,10 @@
 <br>
 
 - If you stole the website or you have stole the images without the allow of the owner of this rebo , In this case you will be legally responsible and we might raise a case against you.
+
+
+---
+
+Photo Gallery has been made by [Ammar](https://www.instagram.com/lazybazt/).
+<br>
+Photos has been captured and edited by [Rno](https://www.instagram.com/rno0ox/)
