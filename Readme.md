@@ -25,7 +25,7 @@
 
 <br>
 
-- Make sure that we won't forget you if you made some good touches on this "Gallery" and your name will be written on this REBO Readme file and , of course on the [Shareholders page](/shareholders/)
+- Make sure that we won't forget you if you made some good touches on this "Gallery" and your name will be written on this REBO Readme file and , of course on the [Shareholders page](https://khaledys.github.io/photo-gallery-Rina/shareholders/)
 
 
 <br>
